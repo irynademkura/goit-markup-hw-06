@@ -681,7 +681,6 @@ img {
 
 .footer-social {
   display: flex;
-  margin-top: 24px;
   justify-content: space-between;
   list-style: none;
 }
@@ -713,7 +712,7 @@ img {
   height: 24px;
 }
 
-.footer-subscribe {
+.subscribe {
   margin-left: 80px;
 }
 
@@ -761,11 +760,11 @@ img {
 }
 
 .subscribe-button {
-  position: relative;
+  display: flex;
   padding-left: 24px;
   padding-top: 8px;
   padding-bottom: 8px;
-  padding-right: 64px;
+  padding-right: 24px;
 
   color: var(--primary-white-color);
   font-weight: 700;
@@ -787,10 +786,7 @@ img {
 .subscribe-icon {
   width: 24px;
   height: 24px;
-  position: absolute;
-  top: 50%;
-  right: 24px;
-  transform: translateY(-50%);
+  margin-left: 16px;
   fill: currentColor;
 }
 
